@@ -11,7 +11,7 @@ const movieSchema=new mongoose.Schema({
 
     genre:[{
         type:String,
-        enum:['Action','Drama','Comedy','Romance','thriller','Fantasy','Sci-Fi','Horror','Sport','Musical','Other'],
+        enum:['Action','Drama','Comedy','Romance','thriller','Fantasy','Sci-Fi','Horror','Sports','Musical','Other'],
     },],
 
     director:{
@@ -31,7 +31,7 @@ const movieSchema=new mongoose.Schema({
     },
     rating:{type:Number,
         min:0,
-        max:0,
+        max:10,
         default:0,
     },
     plot:{
