@@ -72,4 +72,40 @@
 
 // require("./sub.index.js/BE24HW2.js");
 
-require("./sub.index.js/BE2Assignment.js");
+// require("./sub.index.js/BE2Assignment.js");
+
+// require("./sub.index.js/BE31CW.js");
+
+// require("./sub.index.js/BE31HW1.js");
+
+// require("./sub.index.js/BE31HW2.js");
+
+// require("./sub.index.js/BE32CW.js");
+
+// require("./sub.index.js/BE32HW1.js");
+
+// require("./sub.index.js/BE32HW2.js");
+
+// require("./sub.index.js/BE33HW1.js");
+// require("./sub.index.js/BE33HW2.js");
+
+// require("./sub.index.js/BE34HW1.js");
+
+// require("./sub.index.js/BE34HW2.js");
+
+// require("./sub.index.js/BE3Assignment1.js")
+
+// require("./sub.index.js/BE41HW1.js")
+// require("./sub.index.js/BE41HW2.js")
+
+// require("./sub.index.js/BE42HW1.js")
+// require("./sub.index.js/BE42HW2.js")
+
+// require("./sub.index.js/BE43HW1.js")
+// require("./sub.index.js/BE43HW2.js")
+
+// require("./sub.index.js/BE44HW1.js")
+
+// require("./sub.index.js/BE44HW2.js")
+
+// require("./sub.index.js/BE4Assignment1.js")
