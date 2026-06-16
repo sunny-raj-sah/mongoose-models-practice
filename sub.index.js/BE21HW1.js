@@ -28,7 +28,7 @@ async function createRestaurant(newRestaurant){
              const  restaurant=new  Restaurant(newRestaurant);
              const savedRestaurant= await restaurant.save();
        console.log("New resturant data:",savedRestaurant)
-    }catch(erro){
+    }catch(error){
      throw error
     }
 }
