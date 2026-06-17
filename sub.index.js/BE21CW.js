@@ -147,7 +147,7 @@ app.get("/movie/:title",async (req,res)=>{
     }
 })
 
-app.get("/movies",(req,res)=>{
+app.get("/movies",async (req,res)=>{
     try{
    const movie=await readAllMovies();
    if(movie.length!=0){
@@ -160,7 +160,7 @@ app.get("/movies",(req,res)=>{
     }
 })
 
-app.get("/movies/director/:directorName",(req,res)=>{
+app.get("/movies/director/:directorName",async (req,res)=>{
 try{
 const movie=await readMovieByDirector(req.params.directorName);
 if(movie.length!=0){
